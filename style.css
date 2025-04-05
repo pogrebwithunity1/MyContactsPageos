@@ -1,0 +1,31 @@
+body {
+  background-color: slateblue;
+  color: white;
+  font-family: 'Trebuchet MS';
+  text-align: center;
+}
+
+img {
+  border-radius: 700005px;
+
+  overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+a {
+  background-color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: slateblue;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
